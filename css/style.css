@@ -1,0 +1,111 @@
+body {
+	background: url(../image/bg.png)  fixed;
+	text-align: center;
+	color: #ffffff;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.logo {
+	font-family: 'Niconne', cursive;
+	font-size: 48px;
+	font-weight: 700;
+	padding-top: 3%;
+}
+h1 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+	margin-top: 7%;
+	color: #d2c9b0;
+}
+strong {
+	color: #d09619;
+}
+
+p {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+	margin-top: 2%;
+	color: #d2c9b0;
+}
+.input-group a {
+	text-decoration: none;	
+}
+.input-group {	
+	margin: 0 auto;
+}
+.input-group-addon {
+	background-color: #f34141;
+
+}
+
+ul#countdown {
+	margin-left:10%;	
+}
+ul#countdown li{
+	background-color: transparent;	
+	color: #dcd9d4;
+	display: inline;
+	float: left;
+	font: normal bold 36px Arial;
+	letter-spacing: 10px;
+	margin-left: 3%;
+	margin-top: 3%;
+	text-align: center;
+	padding-right: 4%;
+	
+	border-right:  3px solid #777;
+	text-align: center;
+}
+ul#countdown span {
+	
+}
+ul#countdown  p.timeRefDays, ul#countdown  p.timeRefHours, ul#countdown  p.timeRefMinutes, ul#countdown  p.timeRefSeconds{
+	font: normal normal 20px Arial;
+	letter-spacing: 0;
+	margin: 0 auto;
+	color: #d2c9b0;
+	text-transform: capitalize;
+}
+ul .days, .hours, .minutes, .seconds {
+	font-size: 65px;
+} 
+span {
+	font-size: 20px;
+}
+.fa-facebook {	
+	color: #ffffff;
+	border: 1px solid #ffffff;
+	padding:8px 12px;
+	border-radius: 30px;
+}
+.fa-twitter {	
+	color: #ffffff;
+	border: 1px solid #ffffff;
+	padding:8px 9px;
+	border-radius: 30px;
+}
+.fa-skype {	
+	color: #ffffff;
+	border: 1px solid #ffffff;
+	padding:8px 10px;
+	border-radius: 30px;
+}
+.fa-google-plus {	
+	color: #ffffff;
+	border: 1px solid #ffffff;
+	padding:9px 7px;
+	border-radius: 30px;
+}
+.fa-youtube {	
+	color: #ffffff;
+	border: 1px solid #ffffff;
+	padding:8px 9px;
+	border-radius: 30px;
+}
+.fa:hover {
+	color: #ffffff;
+	background-color:#00a79d; 
+}
+.footer {
+	padding-top: 6%;
+}

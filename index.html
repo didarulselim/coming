@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Coming Soon</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+    <link href='https://fonts.googleapis.com/css?family=Niconne' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  
+    <div class="container">
+    
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"> 
+      <h2 class="logo">Didarul <strong>Demo</strong> </h2>
+      </div>
+
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"> 
+      <h1>WE ARE COMING SOON  ....</h1>
+      </div>
+      
+
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"> 
+      <ul id="countdown" >
+      <li>
+      <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+      <span class="days">00</span>
+      <p class="timeRefDays">Days</p>
+      </div>
+    </li>
+
+    <li>
+    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+      <span class="hours">00</span>
+      <p class="timeRefHours">Hours</p>
+    </div>
+    </li>
+
+    <li>
+    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+      <span class="minutes">00</span>
+      <p class="timeRefMinutes">Minutes</p>
+      </div>
+    </li>
+
+    <li>
+    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+      <span class="seconds">00</span>
+      <p class="timeRefSeconds">Seconds</p>    
+    </div>
+    </li>
+  </ul>
+  </div>
+
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 sub"> 
+  <p>Subscribe To Our Newstetter</p>
+  </div>
+  <div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3"> 
+    
+<div class="input-group">
+  <input type="text" class="form-control" placeholder="Enter your email" aria-describedby="basic-addon2">
+  <a href="#" class="input-group-addon btn btn-danger" id="basic-addon2"><b>Subscribe</b> </a>
+</div>
+  </div>
+    </div>
+    
+
+    
+    
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/countdown.js"></script>
+ <script type="text/javascript">
+    $(document).ready(function() {
+    
+      $("#countdown").countdown({
+        date: "14 november 2017 1:50:30", // add the countdown's end date (i.e. 3 november 2012 12:00:00)
+        format: "on" // on (03:07:52) | off (3:7:52) - two_digits set to ON maintains layout consistency
+      },
+      
+      function() { 
+        
+        // the code here will run when the countdown ends
+        alert("done!") 
+
+      });
+    });
+  </script>
+  </body>
+</html>
